@@ -1,7 +1,7 @@
-# Coding Practice: Non-Constructable Change
+# Coding Practice: Nth Fibonacci
 This project is meant for me to practice coding interview questions with Python.
-I am presented with the following task: write a function that 
-takes in an integer (n) and returns the nth Fibonacci number.
+I am presented with the following task: write a function that takes in an 
+integer (n) and returns the nth Fibonacci number.
 
 
 ## Running The Project
