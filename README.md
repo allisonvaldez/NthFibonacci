@@ -1,4 +1,4 @@
-# Coding Practice: Nth Fibonacci
+# Coding Practice: Nth Fibonacci Solution 1
 This project is meant for me to practice coding interview questions with Python.
 I am presented with the following task: write a function that takes in an 
 integer (n) and returns the nth Fibonacci number.
@@ -9,7 +9,7 @@ integer (n) and returns the nth Fibonacci number.
 RUN STEP 4 BELOW BEFORE SUBMITTING LABS** 
 
 1. Download and install Python on your computer
-2. Navigate to the [NthFibonacci.Mod1]() directory
+2. Navigate to the [NthFibonacciSol1.Mod1]() directory
 3. Run the program as a module: `python -m Mod1 -h`. This will print the help 
    message.
 4. Run the program as a module (with real inputs): `python -m Mod1`
@@ -40,7 +40,7 @@ Usage statements are very formalized
 
 The following was my project's package layout:
 
-* NthFibonacci.Mod1/: `The parent or "root" folder containing all of the 
+* NthFibonacciSol1.Mod1/: `The parent or "root" folder containing all of the 
   projecs files`
     * README.md:
       `The README files that describes my programs and the nuances needed 
