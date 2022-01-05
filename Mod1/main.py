@@ -1,16 +1,16 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+"""
+time complexity: O(2^n) due to the nature of recursive nature of binary tree
+space complexity: O(n) depending on the length of the array
+"""
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+def get_nth_fibonacci(num):
+    if num == 2:
+        return 1
+    elif num == 1:
+        return 0
+    else:
+        return get_nth_fibonacci(num - 1) + get_nth_fibonacci(num - 2)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+print(get_nth_fibonacci(4))
